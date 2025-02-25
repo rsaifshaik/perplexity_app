@@ -18,7 +18,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
     DiscoverScreen(),
     ChatspaceScreen(),
     NotificationScreen(),
-    VidvanApp(),
+    Vidvan_app(),
   ];
 
   @override
@@ -58,7 +58,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
                           color: _selectedIndex == 2 ? Colors.blue : Colors.black),
                       label: 'History'),
                   NavigationDestination(
-                      icon: Icon(Icons.games,
+                      icon: Icon(Icons.sports_esports,
                           color: _selectedIndex == 3 ? Colors.blue : Colors.black),
                       label: 'Profile'),
                 ],
